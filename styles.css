@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerDiv{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 644px;
+    height: 644px;
+}
+
+.containerDiv div{
+    height: 40px;
+    border: 1px solid red;
+    width: 40px;
+}
+
+.divHover{
+    background-color: greenyellow;
+}
