@@ -8,16 +8,65 @@
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    width: 644px;
-    height: 644px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
 }
 
 .containerDiv div{
     height: 40px;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     width: 40px;
 }
 
 .divHover{
-    background-color: greenyellow;
+    background-color: rgb(127, 128, 127);
+    z-index: 1000;
+}
+
+.parentContainer{
+    border: 2px solid red; 
+    background-color: red;
+    text-align: center;
+    padding: 10px 50px;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.parentContainer h1{
+    color: yellow;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+body {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gridButton{
+    background-color: yellow;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: "Press Start 2P", system-ui;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#logo{
+    height: 18px;
 }
